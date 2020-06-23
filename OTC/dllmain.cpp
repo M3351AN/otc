@@ -98,11 +98,13 @@ BOOL APIENTRY DllMain(HMODULE module, DWORD callReason, LPVOID lpReserved) {
         logger.Info(u8"-----------------情報---------------");
         logger.Info(u8"更新時間:2020.6.23-10:00:32");
         logger.Space();
-        logger.Info (u8"M3351ANのWebサイト:M3351AN.github.io");
-        logger.Space();
-        logger.Info (u8"M3351ANのメール:M3351AN@outlook.jp");
-        logger.Space();
         logger.Info (u8"buybot機能は修復されました");
+        logger.Space();
+        logger.Info (u8"Webサイト:M3351AN.github.io");
+        logger.Space();
+        logger.Info (u8"メール:M3351AN@outlook.jp");
+        logger.Space();
+        logger.Info (u8"BTC:1HphaJqusY1EEvmV3G23gF5idmatPX8Hdc");
         logger.Space();
         logger.Info(u8"このバージョンは機能コードを消去しようとしますが、最近、このバージョンは多数のVAC禁止のために作成されました");
         logger.Space();
