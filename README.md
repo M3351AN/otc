@@ -1,4 +1,4 @@
-# 🔮 OTC Loader [2.1]  / ![Windows](https://github.com/0x000cb/otc/workflows/Windows/badge.svg?branch=master&event=push) /
+# 🔮 OTC Loader [2.1][For JP]  / ![Windows](https://github.com/0x000cb/otc/workflows/Windows/badge.svg?branch=master&event=push) /
 
 ----------------------------------------------------
 
