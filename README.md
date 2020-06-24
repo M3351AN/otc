@@ -97,7 +97,8 @@
 
 # 💠 Credits
 
-  * [0x000cb](https://github.com/0x000cb) - it's me! (Project creator & reverse staff)
+  * [Takanashi-Yae1337](https://github.com/M3351AN) - Kawaii me! (JPHVH's "Hikari")
+  * [0x000cb](https://github.com/0x000cb) - God! (Project creator & reverse staff)
   * [HoShiMin](https://github.com/HoShiMin) - Legacy & Native help. (Easy hook with HookLib :d)
   * [playday3008](https://github.com/playday3008) - Help with github & frequent pull requests.
 
