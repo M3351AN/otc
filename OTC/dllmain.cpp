@@ -46,11 +46,11 @@ BOOL APIENTRY DllMain(HMODULE module, DWORD callReason, LPVOID lpReserved) {
         logger.Space (2);
 
         logger.Info (u8"[ランタイム] セグメント操作が完了しました");
-        logger.Info (u8"[ランタイム] ホットスポットを再構築...");
+       
 
         runtime.ExtractSegment();
         
-        logger.Info ("| [~] Reconstructing hot-points...");
+        logger.Info (u8"[ランタイム] ホットスポットを再構築...");
 
         runtime.ReconstructHotPoints();
         
