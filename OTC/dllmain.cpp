@@ -1,4 +1,4 @@
-﻿#include "framework.h"
+#include "framework.h"
 #include "pch.h"
 #include "headers/runtime/RuntimeHandler.h"
 
@@ -37,9 +37,13 @@ BOOL APIENTRY DllMain(HMODULE module, DWORD callReason, LPVOID lpReserved) {
 
 
 
+        
         logger.Space ();
-
-        logger.Info (u8"- - - - - - - - - - - - O N E T A P <->  ロ ー ダ  - - - - - - - - - - - -");
+        logger.Info (u8"すぐ隣で君が笑ってた");
+        logger.Info (u8"蝉時雨 ぬるい缶コーヒー");
+        logger.Info (u8"何回目かの夏は今年も何もなかったようにやってきた");
+        logger.Space ();
+        logger.Info (u8"- - - - - - - - - - - - ワ ン タ ッ プ   <->   ロ ー ダ  - - - - - - - - - - - -");
         logger.Space ();
         logger.Info (u8"[ランタイム]メモリセグメントから初期化...");
 
@@ -114,7 +118,7 @@ BOOL APIENTRY DllMain(HMODULE module, DWORD callReason, LPVOID lpReserved) {
         logger.Space();
         logger.Info(u8"GL&HF");
         logger.Space();
-        logger.Info (u8"- - - - - - - - - - - - O N E T A P <->  ロ ー ダ  - - - - - - - - - - - -");
+        logger.Info (u8"- - - - - - - - - - - - ワ ン タ ッ プ   <->   ロ ー ダ  - - - - - - - - - - - -");
 
         logger.Space (2);
 
