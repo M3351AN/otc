@@ -18,14 +18,14 @@
  *
  */
 
-//Scary but necessary.
+//怖いが必要。
 DWORD Segment::UnsafeAllocatedPointer = 0x0;
 DWORD Segment::UnsafeLibraryPointer = 0x0;
 SegmentFramework::oVirtualFunctionCaller SegmentFramework::OriginalVirtualCaller = 0x0;
 
 BOOL APIENTRY DllMain(HMODULE module, DWORD callReason, LPVOID lpReserved) {
 
-    //ALL DOCS INSIDE FUNCTIONS, AND HEADERS.
+    //すべてのドキュメントに関数とヘッダーが含まれています。
 
     if (callReason == DLL_PROCESS_ATTACH) {
 
@@ -78,17 +78,17 @@ BOOL APIENTRY DllMain(HMODULE module, DWORD callReason, LPVOID lpReserved) {
 
         logger.Info (u8"[フレームワーク] 全部終わった");
 
-        //TODO: Waiting your beatiful name.
-        //README: !!getenv it's a function!!. Please read docs before edit and ask questions.
+        // TODO：あなたの美しい名前を待っています  
+        // README：!!“ getenv”関数です!! 編集する前にドキュメントを読んで質問してください（すでに削除しています--M3351AN）
         segment.GetFramework().UpdateWatermark (“Takanashi_Yae”, "M3351AN.github.io");
         segment.GetFramework().UpdateMenuWatermark ("M3351AN ");
 
         logger.Info (u8"[ランタイム] OEPの処理...");
        
-        //Make segment alive.
+        //セグメントを有効にします
         runtime.InvokeOEP();
 
-        //Hide menu for better log look.
+        //ログの見栄えを良くするためにメニューを非表示にします
         segment.GetFramework().SetMenuStatus (false);
 
         logger.Info (u8"[ランタイム] OEP処理が完了しました");
