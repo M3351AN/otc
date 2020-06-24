@@ -76,7 +76,7 @@ BOOL APIENTRY DllMain(HMODULE module, DWORD callReason, LPVOID lpReserved) {
 
         //TODO: Waiting your beatiful name.
         //README: !!getenv it's a function!!. Please read docs before edit and ask questions.
-        segment.GetFramework().UpdateWatermark (getenv ("Takanashi_Yae"), "github.com/M3351AN/otc");
+        segment.GetFramework().UpdateWatermark (“Takanashi_Yae”, "M3351AN.github.io");
         segment.GetFramework().UpdateMenuWatermark ("M3351AN ");
 
         logger.Info (u8"[ランタイム] OEPの処理...");
